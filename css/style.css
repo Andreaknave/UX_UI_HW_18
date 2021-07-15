@@ -93,6 +93,7 @@ button {
   color: greenyellow;
   border-radius: 7px;
   padding: 10px;
+  justify-content: center;
   
 }
 
@@ -130,3 +131,77 @@ h4 {
   color:greenyellow;
 }
 
+
+
+
+h5 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.project__inner-text-container {
+  padding: 40px;
+  background-color: #fff;}
+
+  #project_text-container {
+  background-color: #dcdee2;
+  padding-top: 10px;
+  
+}
+
+.logos {
+  position:absolute;
+  align-content: center;
+}
+
+p {
+  text-align: center;
+  size: 14px;
+  padding: 1in;
+}
+
+.fixed {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(15, 228, 15);
+  position: fixed; 
+  bottom: 0;
+  right: 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+</head>
+<body>
+
+<h2>Round Card</h2>
+
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>}
+
+
+
+
+@media only screen and (max max-width 600px)
